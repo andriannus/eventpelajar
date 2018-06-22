@@ -1,0 +1,41 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.18",
+        "bootstrap": "^4.0.0",
+        "popper.js": "^1.12",
+        "cross-env": "^5.1",
+        "jquery": "^3.2",
+        "laravel-mix": "^2.0",
+        "lodash": "^4.17.4",
+        "vue": "^2.5.7",
+        "vuex": "^3.0.1",
+        "vue-router": "^3.0.1"
+    },
+    "dependencies": {
+        "@mdi/font": "^2.2.43",
+        "@websanova/vue-auth": "^2.21.3-beta",
+        "epic-spinners": "^1.0.3",
+        "moment": "^2.22.0",
+        "vue-axios": "^2.1.1",
+        "vue-backtotop": "^1.3.10",
+        "vue-ckeditor2": "^1.25.0",
+        "vue-clip": "^1.0.0",
+        "vue-disqus": "^3.0.0",
+        "vue-meta": "^1.5.0",
+        "vue-picture-input": "^2.1.5",
+        "vue-resource": "^1.5.0",
+        "vue-social-sharing": "^2.3.3",
+        "vuelidate": "^0.6.2",
+        "vuetify": "^1.0.19"
+    }
+}
